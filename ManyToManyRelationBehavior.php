@@ -40,6 +40,6 @@ class ManyToManyRelationBehavior extends CBehavior{
 				}
 			}
 		}
-		return true;
+		
 	}
 }
