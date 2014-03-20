@@ -3,7 +3,7 @@ ManyToManyRelation
 
 Installation and configuration
 Copy behavior to extensions/ManyToManyRelationBehavior directory located inside your application
-
+<?php
 $model->attachBehavior('ManyToManyRelationBehavior', array(
 	'class' => 'ext.ManyToManyRelationBehavior',
 	'modelNameRelation' => 'ProductMaterial', // Model for relation
