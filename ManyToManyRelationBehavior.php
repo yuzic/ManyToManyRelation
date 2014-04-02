@@ -1,20 +1,20 @@
 <?php
 class ManyToManyRelationBehavior extends CBehavior{
-	/**
+	/***
 	 * @var string name model Relation 
 	 */
 	public $modelNameRelation;
 	/**
-	 * @var string field name for the relationship with the current models
-	 */
+	* @var string field name for the relationship with the current models
+	*/
 	public $fieldNameModelCurrent = null;
 	/**
-	 * @var string field name for the relationship with the external models
-	 */
+	* @var string field name for the relationship with the external models
+	*/
 	public $fieldNameModelRelation = null;
 	/**
-	 * @var array list of values ​​of the current model
-	 */
+	* @var array list of values ​​of the current model
+	*/
 	public $relationList = array();
 
 	public function events() {
