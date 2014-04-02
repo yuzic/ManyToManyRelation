@@ -1,7 +1,7 @@
 <?php
 class ManyToManyRelationBehavior extends CBehavior{
 	/***
-	 * @var string  model name Relation
+	 * @var string  model name Relation test
 	 */
 	public $modelNameRelation;
 	/**
